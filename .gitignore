@@ -1,0 +1,69 @@
+# --- macOS cruft ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+.Spotlight-V100
+.Trashes
+*.swp
+*.lock
+
+# --- Xcode ---
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.mode2v3
+*.xcodeproj/*.perspectivev3
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# --- Swift Package Manager ---
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+!Package.resolved
+
+# --- CocoaPods ---
+Pods/
+!Podfile
+!Podfile.lock
+
+# --- Carthage ---
+Carthage/Build/
+Carthage/Checkouts/
+# сохраняй Cartfile*
+!Cartfile
+!Cartfile.resolved
+!Cartfile.private
+
+# --- fastlane ---
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# --- Playgrounds cache ---
+timeline.xctimeline
+playground.xcworkspace
+
+# --- Swift/ObjC build artifacts ---
+*.dSYM.zip
+*.dSYM
+*.ipa
+*.xcarchive
+*.xcresult
+
+# --- Credentials / temp ---
+*.key
+*.pem
+*.p12
+*.crt
+*.cer
+*.mobileprovision
+*.tmp
+*.log
+
