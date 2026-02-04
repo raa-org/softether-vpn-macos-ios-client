@@ -8,6 +8,9 @@ Icon?
 *.swp
 *.lock
 
+# --- Building scripts ---
+Tools/BuildingScripts/build_mac_env.sh
+
 # --- Xcode ---
 DerivedData/
 build/
@@ -35,7 +38,7 @@ Pods/
 # --- Carthage ---
 Carthage/Build/
 Carthage/Checkouts/
-# сохраняй Cartfile*
+# store Cartfile*
 !Cartfile
 !Cartfile.resolved
 !Cartfile.private
