@@ -1,4 +1,4 @@
-# SimpleTunnel (macOS)
+# softether-vpn-macos-ios-client
 
 This repository contains a macOS host application, a Packet Tunnel System Extension (`.systemextension`), and a shared framework.
 The project uses Xcode configuration files (`.xcconfig`) to keep environment-specific identifiers configurable from a single place.
